@@ -121,9 +121,9 @@
 
         public static void Main(string[] args)
         {
-            //.WriteLine("Welcome to movie store developed by : Abhay");
+            //Console.WriteLine("Welcome to movie store developed by : Abhay");
             //DisplayMenu();
-            string path = @"C:\Users\abhaychandra.gupta\Downloads\Movies.csv";
+            string path = @"D:\Swabhav Training\AuroPay\Assignment\MoviesApp\Movies.csv";
             LoadMoviesFromCsv(path);
 
 
