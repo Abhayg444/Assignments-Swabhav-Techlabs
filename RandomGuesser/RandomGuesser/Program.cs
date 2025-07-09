@@ -21,7 +21,7 @@ namespace RandomGuesser
                     int Guessed = int.Parse(Console.ReadLine());
                     Count = Guesser(Guessed, RnNum, Count);
                 }
-                Console.WriteLine("You won in Attempt: " + Tries);
+                Console.WriteLine($"You won in {Tries} Tries");
                 Console.WriteLine("Want to play again? \n 1.Yes\n 2.No ");
                 plygn = int.Parse(Console.ReadLine());
 
@@ -31,7 +31,7 @@ namespace RandomGuesser
                 int Tries = 0;
                 if (Number == RnNum)
                 {
-                    Console.WriteLine("You have guessed the Correct Number");
+                    Console.WriteLine("Yayy!!...You have guessed the Correct Number");
                     return 1;
                 }
                 else if (RnNum > Number)
