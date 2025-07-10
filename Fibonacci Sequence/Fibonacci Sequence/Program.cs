@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int num1 =0; int num2 =1;
+            int num1 =1; int num2 =1;
             Console.Write("Fibonacci Sequence upto 8 numbers: ");
             for (int i = 0; i < 8; i++)
             {
