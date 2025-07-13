@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pig game with Object calesthinics", "Pig game with Object calesthinics\Pig game with Object calesthinics.csproj", "{8E2E264B-F496-47D1-A136-0D859C2CE6B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E2E264B-F496-47D1-A136-0D859C2CE6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2E264B-F496-47D1-A136-0D859C2CE6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2E264B-F496-47D1-A136-0D859C2CE6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2E264B-F496-47D1-A136-0D859C2CE6B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BA4A3B3-24A8-425C-B55F-DD21DB6E33BF}
+	EndGlobalSection
+EndGlobal
