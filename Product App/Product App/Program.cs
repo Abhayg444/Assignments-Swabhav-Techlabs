@@ -1,4 +1,4 @@
-﻿namespace Product_App
+﻿snamespace Product_App
 {
     internal class Program
     {

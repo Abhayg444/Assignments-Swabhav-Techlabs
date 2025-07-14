@@ -8,10 +8,10 @@ namespace Product_App
 {
     internal class Product
     {
-        public int Id;
-        public string Name;
-        public decimal Price;
-        public readonly double DiscountPercentage = 20;
+        private int Id;
+        private string Name;
+        private decimal Price;
+        private readonly double DiscountPercentage = 20;
 
         public Product(int id, string name, decimal price)
         {
@@ -20,6 +20,20 @@ namespace Product_App
             Price = price;
         }
 
+        public int GetId()
+        {
+            return Id;
+        }
+
+        public string GetName()
+        {
+            return Name;
+        }
+
+        public decimal GetPrice()
+        {
+            return Price;
+        }
         public decimal GetDiscountedPrice()
         {
             return Price - (Price * (decimal)(DiscountPercentage / 100));
