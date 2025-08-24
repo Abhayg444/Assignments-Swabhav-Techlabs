@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All-in-One Programs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>JavaScript Mini Programs</h1>
+  
+  <div class="nav">
+    <button onclick="openTab('prime')">Prime Checker</button>
+    <button onclick="openTab('fibonacci')">Fibonacci Sum</button>
+    <button onclick="openTab('counter')">Even/Odd/Zero Counter</button>
+  </div>
+
+
+  <div id="prime" class="tab">
+    <h2>Prime Number Checker</h2>
+    <input type="number" id="primeInput" placeholder="Enter a number">
+    <button onclick="checkPrime()">Check</button>
+    <div class="result" id="primeResult"></div>
+  </div>
+
+  <div id="fibonacci" class="tab">
+    <h2>Fibonacci Sum Calculator</h2>
+    <input type="number" id="fibInput" placeholder="Enter n">
+    <button onclick="calculateFibSum()">Calculate</button>
+    <div class="result" id="fibResult"></div>
+  </div>
+
+  <div id="counter" class="tab">
+    <h2>Even, Odd and Zero Counter</h2>
+    <input type="text" id="numInput" placeholder="Enter numbers separated by commas">
+    <button onclick="countNumbers()">Count</button>
+    <div class="result" id="countResult"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

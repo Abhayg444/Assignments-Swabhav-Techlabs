@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blue Ball Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <h1> Blue Ball Guessing Game</h1>
+  <div id="instructions">
+    <p>Welcome to the Blue Ball Guessing Game!</p>
+    <ul>
+      <li>Guess a number between <strong>1 and 10</strong>.</li>
+      <li>If your guess is <strong>too high</strong>, your ball turns <span style="color:red;">red</span>.</li>
+      <li>If your guess is <strong>too low</strong>, your ball turns <span style="color:goldenrod;">yellow</span>.</li>
+      <li>If you guess <strong>correctly</strong>, the ball turns <span style="color:green;">green</span> and you win!</li>
+      <li>You have only <strong>6 attempts</strong> to find the right ball.</li>
+    </ul>
+  </div>
+  <p>Guess a number between <strong>1 and 10</strong></p>
+
+  <input type="range" id="slider" min="1" max="10" value="5" />
+  <p>Your Guess: <span id="guess">5</span></p>
+  <button onclick="checkGuess()">Submit Guess</button>
+
+  <div class="balls" id="balls"></div>
+  
+
+  <p id="result" style="margin-top:20px; font-weight:bold;"></p>
+
+  
+</body>
+</html>

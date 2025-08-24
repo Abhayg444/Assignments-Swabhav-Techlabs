@@ -1,0 +1,76 @@
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      background: #ccdbab;
+    }
+    h1 {
+      color: #333;
+    }
+    #slider {
+      width: 300px;
+      margin: 20px 0;
+    }
+    .balls {
+      display: flex;
+      justify-content: center;
+      
+      gap: 15px;
+      margin-top: 30px;
+      max-width: 600px; /* to prevent them from stretching too far */
+      margin-left: auto;
+      margin-right: auto;
+    }
+     .ball {
+      width: 50px;
+      height: 50px;
+      background-color: rgb(128, 128, 222);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      transition: background-color 0.3s ease;
+    }
+
+    #instructions {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px 20px;
+  background: #ffffff;
+  border: 2px solid #ff5100;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#instructions p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+#instructions ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+#instructions li {
+  margin: 6px 0;
+  padding-left: 5px;
+  position: relative;
+}
+
+#instructions li::before {
+  
+  position: absolute;
+  left: -25px;
+  font-size: 18px;
+  color: #007bff;
+}
